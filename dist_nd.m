@@ -21,7 +21,7 @@ p = p(:);
 a = a(:);
 d = d(:);
 
-P = eye(length(d)) - d*d'/(d'*d); % Projection
+P = eye(length(d)) - (d*d')/(d'*d); % Projection
 ap = a - p;
 proj = P*ap;
 dist = norm(proj, 2);
