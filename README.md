@@ -15,6 +15,5 @@ Computes distance from Point to Line with MATLAB functions
 ## N-D Functions (works in any dimension)
 
 - demo_nd.m - demo case
-- line_nd.m - computes line equation $x = a + t \times d$ for real t
+- line_nd.m - computes line equation ![](http://latex.codecogs.com/gif.latex?x&space;=&space;a&space;&plus;&space;t&space;\times&space;d&space;\:&space;\textup{for}\:&space;t&space;\in&space;\Re) for real t
 - dist_nd.m - computes distance from point to line
-
